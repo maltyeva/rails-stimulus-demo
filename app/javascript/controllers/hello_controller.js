@@ -1,7 +1,7 @@
-import { Controller } from 'stimulus';
+import {  Controller } from "stimulus"
 
 export default class extends Controller {
-  initialize() {
-    console.log("hello")
+  connect() {
+    console.log("hello from StimulusJS")
   }
 }
