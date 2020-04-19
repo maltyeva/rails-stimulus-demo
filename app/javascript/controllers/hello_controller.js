@@ -6,7 +6,7 @@ export default class extends Controller {
     console.log("hello from StimulusJS")
   }
   greet() {
-    console.log("click")
+    this.headingTarget.innerHTML = "Hello World"
   }
  
 }
